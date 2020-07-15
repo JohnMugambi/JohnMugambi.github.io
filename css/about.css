@@ -1,0 +1,321 @@
+header{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+header div .header-image-about{
+    position: absolute;
+    height: 76vh;
+    width: 95%;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    margin-left: auto; 
+    margin-right: auto;
+    overflow: hidden;
+    box-shadow: 0px 10px 20px 5px #d6d6d6  ; 
+}
+header div .header-image-about img{
+    position: absolute;
+    max-height: 120vh;
+    
+    left: 0;
+    right: 0;
+    margin-left: auto; 
+    margin-right: auto;    
+    
+}
+header div .header-image-about .overlay-about{
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(23, 22, 31, 0.5);
+    
+}
+header div .header-image-about h2 {
+    position: absolute;
+    max-width: 450px;
+    font-size: 10vh;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 5vw 15vh 5vw;
+    bottom: 0;
+    color: whitesmoke;
+    
+}   
+.section-about{
+    position: relative;
+    color: rgb(13, 10, 24);
+    height: auto;
+    margin-top: 80px;
+}
+
+.bio-content, .section-about-me{
+    width: 80vw;
+    margin:auto;
+}
+div .intro-profile{
+    margin: auto;
+    width: 80%;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: solid 2px rgb(204, 204, 204);
+}
+div .intro-profile h4{
+    margin: auto;
+    text-align: center;
+    padding: 0;
+}
+div .intro-profile p{
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    font-family: 'monospace', sans-serif;
+    font-weight: 600;
+    color: grey;
+    margin-top: 10px;
+}
+.section-about-me .about-me{
+    display: flex;
+    min-height: 35vh;
+}
+.section-about-me .about-me .about-me-details{
+    flex: 2;
+    padding: 40px;
+    display: block;
+    margin: auto;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    float: left;
+    
+}
+.section-about-me .about-me .about-me-details h5{
+    font-size: 1.5em;
+    padding-bottom: 10px;
+}
+.section-about-me .about-me .about-me-details p{
+    font-size: 1.2em;    
+}
+.section-about-me .about-me .about-me-image{
+    flex: 1;
+    padding: 20px;   
+    display: block;
+    position: relative;
+    min-height: 400px;
+    max-width: 300px;
+    margin: auto;
+}
+.section-about-me .about-me .about-me-image img{
+    height: 400px;
+    width: 300px;
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+.section-art{
+    display: block;
+    min-height: 50vh;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px 5px rgb(230, 230, 230);
+}
+.section-art-intro{
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 50px;
+    min-height: 20vh;
+    text-align: center;
+   
+}
+.section-art-intro h5{
+    padding-top: 20px;
+    font-size: 4vh;
+}
+.section-art-intro p{
+    padding: 5px 5vw 5px 5vw;
+    font-size: 3vh;
+}
+.sample-images{
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+.insta-btn{
+    padding-top: 20px;
+    
+}
+.insta-link{
+    text-align: center;
+    justify-content: center;
+    
+}
+.insta-btn a:hover p{
+    color: gray;
+}
+#instafeed{
+    width: 80%;
+    margin: auto;
+}
+.my-skills{
+    height: auto;
+    display: block;
+    
+    padding-top: 100px;
+}
+section .bio-content{
+    font-family: 'PT Sans', sans-serif;
+}
+section .bio-content > h5{
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    font-size: 2em; 
+      
+}
+section .bio-content .skills-title{
+    font-family: 'Roboto', sans-serif;
+}
+section .bio-content .tech .section-details h5, 
+.work .section-details h5, 
+.education .section-details .title-post h5{
+    font-size: 1em;
+    color: rgb(41, 41, 41);
+}
+section .bio-content .section-details h4{
+    font-size: 1.5em;
+    color: rgb(22, 22, 22);
+}
+section .bio-content .section-details ul{
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.section-skills{
+    
+    display: flex;
+}
+.section-details{
+    flex: 1;
+    padding: 25px;
+    
+    justify-content: center;
+    
+    
+}
+.span-2-section{
+    flex: 2;
+    padding-left: 0;
+    
+}
+.title-post h5{
+    padding-bottom: 5px;
+}
+.title-post p{
+    padding-bottom: 10px;
+}
+.section-details h4{
+    margin: auto;
+    
+    font-size: 1.1em;
+    
+}
+/*---------------------Responsiveness--------------------------*/
+@media only screen and (max-width: 1184px){
+    .section-about-me .about-me .about-me-details{
+        margin-left: 50px;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .section-about-me .about-me .about-me-details{
+        margin-left: 80px;
+    }
+}
+@media only screen and (max-width: 982px){
+    .section-about-me .about-me .about-me-details{
+        margin-left: 100px;
+    }
+}
+@media only screen and (max-width: 920px){
+    .section-about-me .about-me .about-me-details{
+        margin-left: 90px;
+    }
+}
+@media only screen and (max-width: 865px){
+    .section-about-me .about-me .about-me-details{
+        margin-left: 110px;
+    }
+    section .bio-content > h5{
+        
+        justify-content: center;
+        text-align: left;
+           
+    }
+    #main-page > section h4{
+        margin-top: 10px;
+        padding-left: 0;
+        padding-bottom: 10px;
+    }
+    section .bio-content .section-details ul{
+        padding-left: 25px;
+        padding-top: 5px;
+    }
+    .section-skills{
+        display: block;
+
+    }
+    .section-skills .section-details{
+        
+        padding: 0;
+    }
+    .section-skills .section-details h4{
+        padding-top: 5px;
+        margin-top: 0px;  
+    }
+    section .bio-content .tech .section-details h5, 
+.work .section-details h5, 
+.education .section-details .title-post h5{
+    margin:5px 0 5px 0;
+}
+}
+@media only screen and (max-width: 800px){
+    .section-about-me{
+        width: 100%;
+    }
+    .section-about-me .about-me{
+        display: block;
+        min-height: 35vh;
+        
+    }
+    .section-about-me .about-me .about-me-details{
+        width: 100%;
+            
+        float: none;
+        flex: none;
+        margin-left: 0;
+    }
+    .section-about-me .about-me .about-me-image{
+        flex: none;
+        display: block;
+        margin: auto;
+        border: dashed 1px blue;
+        padding: 0;
+        min-height: 300px;
+        max-width: 200px;
+    }
+    
+    .section-about-me .about-me .about-me-image img{
+        height: 300px;
+        width: 200px;
+    }
+}
+@media only screen and (max-width: 462px){
+    header div .header-image-about h2 {
+        font-size: 8vh;
+    }
+}
+@media only screen and (max-width: 471px){
+    .section-about-me .about-me .about-me-image{
+        padding: 0;
+    }
+    .section-about-me .about-me .about-me-details p{
+        font-size: 1em;    
+    }
+}

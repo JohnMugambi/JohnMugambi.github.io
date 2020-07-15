@@ -1,0 +1,80 @@
+.container-other-sub div p{
+    font-family: 'monospace', sans-serif;
+    font-weight: 500;
+    color: rgb(5, 8, 22);
+}
+.contact-form {
+    height: auto;
+    border: solid 1px rgb(255, 255, 255);
+    display: block;
+    position: relative;
+    
+}
+.contact-form .contact-container{
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 120px;
+    
+}
+
+.contact-container .other-sub{
+    min-height: 13vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 2px solid rgb(219, 219, 219);
+    width: 100%;
+    padding: 20px 0px 20px 0px; 
+}
+
+.container-other-sub{
+    
+    width: 50%;
+}
+fieldset{
+    border: none;
+    border-top: 1px solid rgb(219, 219, 219);
+    width: 50%;
+    padding-top: 20px;
+       
+}
+fieldset .grouped{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    padding-bottom: 4px;
+    display: flex;
+    flex-direction: column;
+}
+.name-input input{
+    display: inline-block;
+    width: auto;
+}
+input, textarea{
+    border-radius: 2px;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 100%;
+    border:1px solid rgb(219, 219, 219);
+    background-color: rgb(240, 240, 240);
+}
+textarea{
+    margin: 0px;
+}
+iframe{
+    margin-top: 30px;
+}
+@media only screen and (max-width: 794px){
+    fieldset{
+        width: 90%;
+    }
+    .container-other-sub{
+    
+        width: 80%;
+    }
+    iframe{
+        width: 90%;
+    }
+}
