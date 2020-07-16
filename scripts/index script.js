@@ -6,7 +6,7 @@ window.addEventListener('scroll', function(e){
     
 });
 
-var scrollingInto = document.querySelector('.skills-section');
+var scrollingInto = document.querySelector('.section-about');
 window.onscroll = function(){
     var top = window.scrollY;
     
@@ -16,3 +16,13 @@ window.onscroll = function(){
         this.scrollingInto.style.opacity = this.Math.min(1, Math.min(1, top/120 - 2));
     }
 }
+
+var scrollToTop = document.querySelector('.goTop');
+scrollToTop.addEventListener('click', function(){
+    smoothScroll('.nav-bar', 1000);
+});
+
+var viewSkills = document.querySelector(".view-skills");
+viewSkills.addEventListener('click',function(){
+    smoothScroll('.skills-section', 1000);
+})
