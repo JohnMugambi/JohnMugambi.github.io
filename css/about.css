@@ -116,9 +116,11 @@ div .intro-profile p{
 }
 .section-art{
     display: block;
-    min-height: 50vh;
+    height: auto;
     margin-bottom: 20px;
     box-shadow: 0px 0px 10px 5px rgb(230, 230, 230);
+    width: 95%;
+    margin: auto;
 }
 .section-art-intro{
     font-family: 'PT Sans', sans-serif;
@@ -129,10 +131,11 @@ div .intro-profile p{
 }
 .section-art-intro h5{
     padding-top: 20px;
+
     font-size: 4vh;
 }
 .section-art-intro p{
-    padding: 5px 5vw 5px 5vw;
+    padding: 10px 5vw 5px 5vw;
     font-size: 3vh;
 }
 .sample-images{
@@ -140,7 +143,7 @@ div .intro-profile p{
     padding-bottom: 30px;
 }
 .insta-btn{
-    padding-top: 20px;
+    padding-bottom: 15px;
     
 }
 .insta-link{
