@@ -23,7 +23,7 @@ const navBurger=()=>{
     const burger = document.querySelector('.burger');
     const navMenu = document.querySelector('.nav-menu');
     navMenu.addEventListener('click',()=>{
-        nav.classList.toggle('nav-active');
+        navMenu.classList.toggle('nav-active');
         burger.classList.toggle('toggle');
     })
 }
