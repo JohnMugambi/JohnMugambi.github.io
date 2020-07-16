@@ -843,7 +843,9 @@ section h4{
         color: rgb(71, 71, 71);
         font-size: 3.9em;
     }
-    
+    .skills-section h4{
+        margin-left: 15px;
+    }
 }
 @media only screen and (max-width:820px){
     .skills-icons .skills-center div img{
