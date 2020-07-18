@@ -7,6 +7,8 @@ window.addEventListener('scroll', function(){
     
 });
 
+var scrollingInto = document.querySelector('.section-about');
+
 window.onscroll = function(){
     var top = window.scrollY;
     
