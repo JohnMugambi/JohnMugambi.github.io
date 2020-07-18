@@ -131,7 +131,8 @@ div .intro-profile p{
 }
 .section-art-intro h5{
     padding-top: 20px;
-
+    padding-left: 10px;
+    padding-right: 10px;
     font-size: 4vh;
 }
 .section-art-intro p{
@@ -181,7 +182,7 @@ section .bio-content .tech .section-details h5,
 .work .section-details h5, 
 .education .section-details .title-post h5{
     font-size: 1em;
-    color: rgb(41, 41, 41);
+    color: rgb(22, 22, 22);
 }
 section .bio-content .section-details h4{
     font-size: 1.5em;
@@ -298,7 +299,7 @@ section .bio-content .section-details ul{
         flex: none;
         display: block;
         margin: auto;
-        border: dashed 1px blue;
+        
         padding: 0;
         min-height: 300px;
         max-width: 200px;
